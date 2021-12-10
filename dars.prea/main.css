@@ -1,0 +1,22 @@
+.header{
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 50px;
+    width: 1000px;
+    margin: auto;
+    
+}
+.header-div{
+    text-align: center;
+}
+.section {
+    display: flex;
+    gap: 50px;
+}
+.box2{
+    display: flex;
+    gap: 200px;
+}
+

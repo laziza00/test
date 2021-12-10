@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Rubik", "Arial", sans-serief;
+}
+
+.header{
+    background-color: white;
+}
+.header-list {
+    list-style: none;
+}
+.header-item-link{
+   
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 1.5;
+    line-height: 15.2px;
+    font-weight: 700;
+}
+
+
+
+.kasalanganlar {
+
+    color: red;
+}
+.tuzalganlar {
+    color: green;
+   
+}
+.olganlar {
+    color: black;
+   
+}
+.covid-list {
+    display: flex;
+    padding-right: 10px;
+    list-style-type: none;
+
+}
+.covid_19{
+    color:darkmagenta;
+   
+       
+}
+.header-one {
+    background-color: darkgrey;
+}
+.header-one-ul {
+    margin-right: 2%;
+    list-style-type: none;
+}
+.tg_button {
+    background-color: deepskyblue;
+}
+.valute-part {
+    display: flex;
+    list-style-type: none;
+    width: 200px;
+ 
+}
+.valute-color {
+    padding-right: 4%;
+    color: black;
+}

@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: white;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-section{
+    height: ;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between ;
+    background-color: white;
+    margin-block-start: 141;
+}
+ /* .nav{
+   
+} */
+.inner-block{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    height: 23;
+    width:600px;
+    display: flex;
+    justify-content: space-between;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+    list-style-type: none;
+}
+
+
+  /* .nav-item{
+    padding-right: 30px;
+    display: flex;
+    font-size: 18px;
+     margin: 20px;
+    padding: 30 px; 
+    justify-content: space-between;
+
+} */
+.virtual-section{
+    width:338;
+    height: 445;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.virtual-div{
+    /* width: 340px;
+    height: 304;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700; */
+    
+}
+.virtual-word{
+    width: 340px;
+    height: 304;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    
+
+}
+.link_consult{
+    margin: 30px;
+    border: 1px solid  #458FF6;
+    color: white;
+    background-color: #458FF6;
+    width: 153px;
+    height: 51px;
+    border-radius:55px;
+    padding: 20px;
+}
+.senetnce-service{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px:
+
+}
+.our-hr{
+    height: 2px ;
+    width: 56px;
+}
