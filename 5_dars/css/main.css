@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    background-color: white;
+    /* background-color: white; */
     width: 1120px;
     margin-left: auto;
     margin-right: auto;
@@ -19,7 +19,13 @@ body{
     justify-content: space-between;
     margin-top: 135px;
     margin-bottom: 84px;
-    width: 1120px;
+    /* width: 1120px; */
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
 }
 .header-left{
 
@@ -35,7 +41,7 @@ body{
 .list-item{
     padding: 20px;
 }
-.list-item a{
+.list-item-link{
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
@@ -44,7 +50,7 @@ body{
     color: #1F1534;
     opacity: 0.3;
 }
-.list-item .active{
+.list-item-link .active{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -119,10 +125,7 @@ body{
     font-size: 18px;
     line-height: 30px;
     color: #7D7987;
-    /* width: 952px; */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    align-items: center;
     margin-bottom: 80px;
 
 }
@@ -363,6 +366,7 @@ body{
     transform: rotate(180deg);
 
 }
+
 .examine-title{
     font-style: normal;
     font-weight: bold;
@@ -396,17 +400,21 @@ body{
     flex-wrap: wrap;
 
 }
+.ex-div{
+    /* text-align: center; */
+    padding: 0 10px;
+}
 .ex-list-title{
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 32px;
     color: #000000;
-    width: 251px;
-    height: 64px;
+    /* width: 251px; */
+    /* height: 64px; */
     margin-bottom: 12px;
     align-items: center;
-    padding: 0px 5px;
+    /* padding: 0px 5px; */
 }
 .ex-img{
     margin-bottom: 24px;
@@ -418,11 +426,11 @@ body{
     font-size: 16px;
     line-height: 28px;
     color: #7D7987;
-    width: 251;
-    height: 84px;
+    /* width: 251; */
+    /* height: 84px; */
     margin-bottom: 25px;
     align-items: center;
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
 }
 .examine-list-link{
     font-style: normal;
@@ -434,7 +442,7 @@ body{
 }
 .img-navigator{
     
-    transform: rotate(180deg);
+    transform: rotateX(180deg);
 }
 .examine-link{
     font-style: normal;
@@ -453,14 +461,79 @@ body{
     margin-left: auto;
 
 }
-.ex-div{
-    /* padding: 0px 15px; */
+
+
+.footer-box{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer-inner{
+    height: 432px;
+    left: 0px;
+    /* top: 5438px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 109px;
+    margin-top: 109px;
+
+}
+.footer-img{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer-T-logo{
+   /* margin-right: 12px;
+   color: #5B9BF3;
+   background-color: white; */
+}
+.footer-right-logoimg{
+
+
+}
+.footer-right-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 391px;
+    margin-bottom: 31px;
+ 
+
 }
 
+.footer-left{
+    
+}
 
+.footer-list-inner{
+    list-style: none;
+}
+.footer-list-item{
+    
+}
+.footer-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
 
+}
+.footer-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
 
-
-
+}
+.test{
+    transform: rotateX(180deg);
+}
 
 

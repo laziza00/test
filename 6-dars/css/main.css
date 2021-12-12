@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1120px;
+    padding: 0.5px;
+}
+.header-inner{
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav{
+    width: 338px;
+}
+.hedaer-list-link{
+    text-decoration: none;
+    
+}
+.nav-library .active{
+    opacity: 1;
+}
+.nav-library{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #25202F;
+    opacity: 0.3;
+}
+
+
+.header-list-item{
+    /* padding: 0px 10px; */
+    text-decoration: none;
+}
+.header-button{
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0px 10px 5px rgba(198, 185, 233, 0.3);
+}
+.hedaer-list-link .active{
+    opacity: 1;
+
+}
+.hero-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-name span{
+    color: #666666;
+}
+.hero-name h1{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 120%;
+    margin-bottom: 25px;
+}
+.hero-name p{
+    color: #666666;
+    margin-bottom: 78px;
+}
+.hero-name a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 48px;
+    color: #fff;
+    background: #8643DC;
+    border-radius: 100px;
+}
+.hero-img{
+    margin-top: -71px;
+}
+.hero-name{
+    margin-right: 141px;
+}
+
+
+
+
+
+.clients-block-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients-item{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 33px 45px;
+}
+.clients-link{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+}
+.blog-info{
+
+}
+.blog-list{
+    width: 900px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-item{
+    width: 255px;
+    height: 350px;
+    overflow: hidden;
+
+}
+.blog-list-inner{
+    transition: all 0.5s esse;
+}
+.blog-item:hover{
+
+}
+.blog-item:hover .blog-list-inner{
+    margin-top: 100px;
+}
+.blog-list-inner time{
+    font-weight: bold;
+    color: #FFF;
+
+}
+.blog-list-inner p{
+    font-weight: bold;
+    color: #FFF;
+
+}
